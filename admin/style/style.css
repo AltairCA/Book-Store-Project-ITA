@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+#left_pane{
+	border-right:#333333 2px solid;
+	width:200px;
+	line-height:40px;
+	
+	
+	
+	
+	
+}
+
+#right_pane{
+	/*border:#333333 2px solid;*/
+	width:1100px;
+	
+	
+}
+#details{
+	/*border:1px solid black;	*/
+	padding-left:10px;
+}
+#details tr td{
+	width:200px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	border-bottom:1px solid black;
+}
+#button_edit{
+		padding-left:10px;
+	padding-right:10px;
+}
+#details tr th{
+	padding-bottom:10px;
+	border-bottom:3px solid black;
+}
+#left_pane a{
+	color:#000000;
+	text-decoration:none;
+	
+	
+	
+}

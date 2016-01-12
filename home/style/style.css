@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+#maintable tr td{
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(44, 46, 44, 0.82);
+	-moz-box-shadow:    0px 0px 30px 0px rgba(44, 46, 44, 0.82);
+	box-shadow:         0px 0px 30px 0px rgba(44, 46, 44, 0.82);
+	background-color:#FFFFFF;
+	
+}
+
+#maintable tr td table tr td div img{
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(44, 46, 44, 0.82);
+	-moz-box-shadow:    0px 0px 30px 0px rgba(44, 46, 44, 0.82);
+	box-shadow:         0px 0px 30px 0px rgba(44, 46, 44, 0.82);
+	background-color:#FFFFFF;
+	
+}
+#maintable tr td table tr td{
+	
+	box-shadow:none;
+	background-color:#FFFFFF;
+	
+}
+#maintable tr td table tr th{
+	
+	
+}
+#maintable tr td table tr td div{
+	
+	padding-right:90px;
+	position:static;
+	
+	min-height:190;
+	min-width:120;
+	style="font-family: Papyrus, fantasy;"
+	
+}
+#maintable tr td  table tr td div:hover #img_hid{
+-webkit-transition: all 0.5s ease;
+z-index:5;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s all;
+
+
+width:200px;
+height:260px;
+visibility:visible;
+
+
+}
+#img_hid{
+	-webkit-transition: all 0.5s ease;
+	
+
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s all;
+	position:absolute;
+	visibility: hidden;
+}

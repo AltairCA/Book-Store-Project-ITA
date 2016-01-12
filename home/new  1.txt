@@ -1,0 +1,5 @@
+SELECT  `book_id` , SUM(  bo.`qty` ) AS  'quentity',`path`
+FROM  `b_o` bo,`book` b
+where bo.`book_id` = b.`id`
+GROUP BY  `book_id` 
+ORDER BY `quentity` DESC

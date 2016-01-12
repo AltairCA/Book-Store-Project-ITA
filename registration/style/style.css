@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_table tr td{
+	font-size:18px;
+		text-align:left;
+	padding-bottom:10px;
+	padding-top:10px;		
+	
+}
+#main_table tr td p{
+	font-size:18px;
+		text-align:left;
+	padding:0px;
+	margin:0px;
+	
+}
+#main_table tr td input,select{
+	
+		font-size:18px;
+	min-width:400px;
+	max-width:400px;
+	background-color: white;
+	/*background-color:#F3B39C; */
+	border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	
+}
+
+#main_table_column2{
+	min-width:200px;
+	max-width:200px;
+	
+	
+}
+#main_table_column1{
+	min-width:410px;
+	max-width:410px;
+	
+}
